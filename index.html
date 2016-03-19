@@ -18,6 +18,7 @@
     <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/sidebar.css" rel="stylesheet">
     <link href="assets/css/return-to-top.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
@@ -38,7 +39,7 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#">Events</a>
+                    <a class="page-scroll" href="#projects">Projects</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#">Team</a>
@@ -60,9 +61,6 @@
                 <li>
                     <a class="page-scroll" href="#">Contact</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="https://twitter.com/maridlcrmn">Follow me</a>
-                </li>
             </ul>
         </nav>
         <!-- /sidebar -->
@@ -82,7 +80,7 @@
           <div class="item active">
             <!-- <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide"> -->
             <div class="container">
-              <div class="carousel-caption">
+              <div id="carouselCaption" class="carousel-caption animated fadeIn">
                 <h1>Mansour Rahimi</h1>
                 <p>Welcome to my personal Github page</p>
                 <p>
@@ -98,8 +96,11 @@
     </section>
 
     <div class="container marketing">
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
+
+      <section id="about">
+      </section>
+
+      <div class="row row-top-margin">
 
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
@@ -124,7 +125,7 @@
 
       </div>
 
-      <section id="about">
+      <section id="projects">
         <hr class="featurette-divider">
 
         <div class="row featurette">
