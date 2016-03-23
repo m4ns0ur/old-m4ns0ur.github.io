@@ -1,0 +1,99 @@
+.main-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.main-inner>.item>a>img, .main-inner>.item>img {
+  line-height: 1;
+}
+.main-inner>.item>a>img, .main-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+}
+
+.mainViewPort {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  height: 250px;
+}
+
+.blurViewPort {
+  overflow: hidden;
+  /*background-color: rgba(250,250,250,.7);*/
+  z-index: 5;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  /*opacity: 0.95;*/
+}
+
+#blurBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mainCaption {
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.typingDiv {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.down-arrow i,
+.down-arrow:hover i,
+.down-arrow:visited i {
+  color: #F5F5F5;
+}
+
+@keyframes pointToDown {
+  from {
+    -webkit-transform: translateY(0px); /* Safari and Chrome */
+    -moz-transform: translateY(0px); /* Firefox */
+    -ms-transform: translateY(0px); /* IE 9 */
+    -o-transform: translateY(0px); /* Opera */
+    transform: translateY(0px);
+  }
+
+  to {
+    -webkit-transform: translateY(13px); /* Safari and Chrome */
+    -moz-transform: translateY(13px); /* Firefox */
+    -ms-transform: translateY(13px); /* IE 9 */
+    -o-transform: translateY(13px); /* Opera */
+    transform: translateY(13px);
+  }
+}
+
+.down-arrow i {
+  animation-duration: .7s;
+  animation-name: pointToDown;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#carouselCaption {
+  -webkit-animation-duration: 1s; /* Safari and Chrome */
+  -moz-animation-duration: 1s; /* Firefox */
+  -ms-animation-duration: 1s; /* IE 9 */
+  -o-animation-duration: 1s; /* Opera */
+}
+ .row-top-margin {
+    margin-top: 60px;
+ }

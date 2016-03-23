@@ -13,12 +13,14 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/sidebar.css" rel="stylesheet">
     <link href="assets/css/return-to-top.css" rel="stylesheet">
     <link href="assets/css/animate.min.css" rel="stylesheet">
+    <link href="assets/css/typed.css" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
@@ -78,12 +80,12 @@
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="main-inner" role="listbox">
           <div class="item active">
-            <!-- <img src="assets/img/04.jpg" alt="Background"> -->
+            <img id="mainBg" src="assets/img/04.jpg" alt="Background">
+            <div class="mainViewPort blurViewPort">
+              <img id="blurBg" src="assets/img/04.jpg" alt="Background">
+            </div>
             <div class="container">
-              <div class="blurViewPort">
-                <!-- <img src="assets/img/04.jpg" alt="Background"> -->
-              </div>
-              <div id="mainCaption" class="mainCaption animated fadeInUp">
+              <div id="mainCaption" class="mainViewPort mainCaption animated fadeInUp">
                 <h1>Mansour Rahimi</h1>
                 <p>Welcome to my personal Github page</p>
                 <p>
@@ -91,6 +93,19 @@
                       <i class="glyphicon glyphicon-chevron-down"></i>
                     </a>
                 </p>
+                <div id="typed-strings">
+                  <!-- <p>Typed.js is a ^1000<strong>jQuery</strong> plugin.</p>
+                  <p>It <em>types</em> out sentences.</p> -->
+                  <p>
+                    It <em>types</em> out sentences.<br>
+                    It <em>types</em> out sentences.<br>
+                    It <em>types</em> out sentences.<br>
+                    It <em>types</em> out sentences.<br>
+                  </p>
+                </div>
+                <div class="typingDiv">
+                  <span class="typingSpan"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -182,6 +197,7 @@
     <script src="assets/js/jquery-2.2.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/jquery-2.2.1.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -190,6 +206,7 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/return-to-top.js"></script>
+    <script src="assets/js/typed.js"></script>
 
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
