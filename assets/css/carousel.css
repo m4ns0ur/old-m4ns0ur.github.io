@@ -38,14 +38,14 @@ body {
 
 /* carousel base class */
 .carousel {
-  height: 100vh;
+  height: 610px;
   /*margin-bottom: 60px;*/
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 100vh;
-  background-color: #4696e5;
+  height: 610px;
+  /*background-color: #4696e5;*/
 }
 
 /* MARKETING CONTENT

@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    $('.blurViewPort').height($('#mainCaption').height());
-    $('.blurViewPort').width($('#mainCaption').width());
+    // $('.blurViewPort').height($('#mainCaption').height());
+    // $('.blurViewPort').width($('#mainCaption').width());
 
-    $(window).scroll(function () {
-      $('#blurBg').css('top', ($('#mainBg').position().top - $(window).scrollTop()));
-    });
+    // $(window).scroll(function () {
+    //   $('#blurBg').css('top', ($('#mainBg').position().top - $(window).scrollTop()));
+    // });
 
     $('.typingSpan').typed({
       // Waits 1000ms after typing "First"
