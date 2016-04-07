@@ -38,13 +38,13 @@ body {
 
 /* carousel base class */
 .carousel {
-  height: 610px;
+  height: 630px;
   /*margin-bottom: 60px;*/
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 610px;
+  height: 630px;
   /*background-color: #4696e5;*/
 }
 
