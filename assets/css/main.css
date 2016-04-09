@@ -117,3 +117,20 @@
 .row-top-margin {
   margin-top: 60px;
 }
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.div-float-left {
+  display: inline-block;
+  width: 200px;
+}
+
+.div-center {
+  display: inline-block;
+}
+
+.span-heart {
+  font-size: 18px;
+}
