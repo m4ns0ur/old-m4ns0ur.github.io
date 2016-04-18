@@ -124,13 +124,9 @@
 
 .div-float-left {
   display: inline-block;
-  width: 200px;
+  width: 250px;
 }
 
 .div-center {
   display: inline-block;
-}
-
-.span-heart {
-  font-size: 18px;
 }
