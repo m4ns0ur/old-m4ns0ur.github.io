@@ -111,20 +111,20 @@
     <div class="sections">
       <section id="about">
         <div class="row row-top-margin">
-          <div class="col-lg-4">
+          <div class="col-lg-4 scroll-reveal">
             <img class="img-circle" src="assets/img/developer.svg" alt="Software Developer" width="140" height="140">
             <h2>Software Developer</h2>
             <p>Software Developer...</p>
             <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 scroll-reveal">
             <img class="img-circle" src="assets/img/java.png" alt="Java Developer" width="140" height="140">
             <h2>Java Developer</h2>
             <p>Java Developer...</p>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 scroll-reveal">
             <img class="img-circle" src="assets/img/se.png" alt="Secure Element Expert" width="140" height="140">
             <h2>Secure Element Expert</h2>
             <p>Secure Element Expert...</p>
@@ -134,11 +134,11 @@
 
       <section id="projects">
         <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7 scroll-reveal">
             <h2 class="featurette-heading">Projects</h2>
             <p class="lead">Check <a href="https://github.com/m4ns0ur">GitHub</a>, to fork my open source projects.</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 scroll-reveal">
             <a href="https://github.com/m4ns0ur">
               <img id="heisencat" class="featurette-image img-responsive center-block" src="assets/img/heisencat.png" alt="heisencat">
             </a>
@@ -146,14 +146,10 @@
         </div>
       </section>
 
-      <!-- return to top -->
-      <a class="page-scroll" href="#home" id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
-      <!-- return to top -->
-
       <footer class="footer">
         <section id="contact">
           <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
+            <div class="col-md-7 col-md-push-5 scroll-reveal">
               <h2 class="featurette-heading">Social</h2>
               <p class="lead">
                 <div class="social">
@@ -182,15 +178,11 @@
                         <span>Google+</span>
                       </a>
                     </li>
-                    <!-- <li>
-                      <div class="entypo-facebook"></div>
-                      <span>Facebook</span>
-                    </li> -->
                   </ul>
                 </div>
               </p>
             </div>
-            <div class="col-md-5 col-md-pull-7">
+            <div class="col-md-5 col-md-pull-7 scroll-reveal">
               <img id="octobiwan" class="featurette-image img-responsive center-block img-circle" src="assets/img/octobiwan.jpg" alt="octobiwan">
             </div>
           </div>
@@ -205,6 +197,10 @@
           </div>
         </div>
       </footer>
+
+      <!-- return to top -->
+      <a class="page-scroll" href="#home" id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
+      <!-- return to top -->
     </div>
 
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -221,6 +217,7 @@
     <script src="assets/js/scrolling-nav.js"></script>
     <script src="assets/js/return-to-top.js"></script>
     <script src="assets/js/typed.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
 
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -233,5 +230,9 @@
       } catch(err) {}
     </script>
 
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.scroll-reveal', { duration: 2000 }, 50);
+    </script>
   </body>
 </html>

@@ -13,6 +13,7 @@ Feel free to fork, and use the theme.
 - [Heisencat](https://octodex.github.com/heisencat)
 - [Octobiwan](https://octodex.github.com/octobiwan)
 - [Fancy Flat Social Button Animation](http://codepen.io/cguillou/details/LmCuJ)
+- [ScrollReveal](https://github.com/jlmakes/scrollreveal.js/blob/master/LICENSE.md)
 
 ## License
 
