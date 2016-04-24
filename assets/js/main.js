@@ -14,7 +14,7 @@ $(document).ready(function () {
       // typing speed
       typeSpeed: 5,
       // time before typing starts
-      startDelay: 0,
+      startDelay: 1000,
       // backspacing speed
       backSpeed: 0,
       // time before backspacing
@@ -26,7 +26,7 @@ $(document).ready(function () {
       // show cursor
       showCursor: true,
       // character for cursor
-      cursorChar: "|",
+      cursorChar: "█",
       // attribute to type (null == text)
       attr: null,
       // either html or text

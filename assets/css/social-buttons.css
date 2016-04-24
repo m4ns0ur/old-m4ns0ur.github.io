@@ -1,0 +1,76 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+section #services {
+  text-align: left;
+  transform: translatez(0);
+}
+
+section #services li {
+  width: 90px;
+  height: 90px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+
+section #services li div {
+  width: 90px;
+  height: 90px;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 90px;
+  transition: all 0.5s ease;
+}
+
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+
+section #services li span {
+  width: 90px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+section #services li a:focus {
+  text-decoration: none;
+}
+
+section #services li a {
+  color: inherit;
+}
+
+.entypo-github {
+  background-color: #fff;
+}
+
+.entypo-linkedin {
+  color: #fff;
+  background-color: #4875B4;
+}
+
+.entypo-twitter {
+  color: #2daae1;
+  background-color: #fff;
+}
+
+.entypo-gplus {
+  color: #fff;
+  background-color: #d34836;
+}
+
+.entypo-facebook {
+  color: #fff;
+  background-color: #0077B5;
+}

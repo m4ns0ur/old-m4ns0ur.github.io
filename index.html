@@ -22,6 +22,7 @@
     <link href="assets/css/animate.min.css" rel="stylesheet">
     <link href="assets/css/typed.css" rel="stylesheet">
     <link href="assets/css/github-corners.css" rel="stylesheet">
+    <link href="assets/css/social-buttons.css" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
@@ -94,11 +95,11 @@
                   </a>
                 </p>
                 <div id="typed-strings">
-                  <p>I'm a programmer, I have no life...</p>
-                  <p>Senior Software Developer, ^500<br>Senior Java Developer, ^500<br>Secure Element (SE), NFC, HCE Expert, ^500<br>Life Hacker.</p>
+                  <p>I'm a programmer, I have no life... ^500</p>
+                  <p>Senior Software Developer<br>$ ^500Senior Java Developer<br>$ ^500Secure Element Expert (SE, NFC, HCE)<br>$ ^500Lifehacker<br>$ ^500</p>
                 </div>
                 <div class="typingDiv">
-                  <span class="typingSpan"></span>
+                  $ <span class="typingSpan"></span>
                 </div>
               </div>
             </div>
@@ -107,93 +108,103 @@
       </div>
     </section>
 
-    <div class="container marketing">
-
+    <div class="sections">
       <section id="about">
+        <div class="row row-top-margin">
+          <div class="col-lg-4">
+            <img class="img-circle" src="assets/img/developer.svg" alt="Software Developer" width="140" height="140">
+            <h2>Software Developer</h2>
+            <p>Software Developer...</p>
+            <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+          </div>
+
+          <div class="col-lg-4">
+            <img class="img-circle" src="assets/img/java.png" alt="Java Developer" width="140" height="140">
+            <h2>Java Developer</h2>
+            <p>Java Developer...</p>
+          </div>
+
+          <div class="col-lg-4">
+            <img class="img-circle" src="assets/img/se.png" alt="Secure Element Expert" width="140" height="140">
+            <h2>Secure Element Expert</h2>
+            <p>Secure Element Expert...</p>
+          </div>
+        </div>
       </section>
 
-      <div class="row row-top-margin">
-
-        <div class="col-lg-4">
-          <img class="img-circle" src="assets/img/developer.svg" alt="Sftware Developer" width="140" height="140">
-          <h2>Software Developer</h2>
-          <p>Software Developer.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-
-        <div class="col-lg-4">
-          <img class="img-circle" src="assets/img/java.png" alt="Secure Element" width="140" height="140">
-          <h2>Java Developer</h2>
-          <p>Java Developer.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-
-        <div class="col-lg-4">
-          <img class="img-circle" src="assets/img/se.png" alt="Secure Element" width="140" height="140">
-          <h2>Secure Element Expert</h2>
-          <p>Secure Element Expert.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-
-      </div>
-
       <section id="projects">
-        <hr class="featurette-divider">
-
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Projects</h2>
-            <p class="lead">Check <a href="https://github.com/m4ns0ur">Github</a>, to fork my open source projects.</p>
+            <p class="lead">Check <a href="https://github.com/m4ns0ur">GitHub</a>, to fork my open source projects.</p>
           </div>
           <div class="col-md-5">
             <a href="https://github.com/m4ns0ur">
-              <img class="featurette-image img-responsive center-block" src="assets/img/heisencat.png" alt="heisencat">
+              <img id="heisencat" class="featurette-image img-responsive center-block" src="assets/img/heisencat.png" alt="heisencat">
             </a>
           </div>
         </div>
       </section>
-
-      <section id="contact">
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Contact</h2><!-- <span class="text-muted">See for yourself.</span> -->
-            <p class="lead">Coming Soon...</p>
-          </div>
-          <div class="col-md-5 col-md-pull-7">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-      </section>
-
-      <hr class="featurette-divider">
-
-      <!-- <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider"> -->
 
       <!-- return to top -->
       <a class="page-scroll" href="#home" id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
       <!-- return to top -->
 
       <footer class="footer">
-        <div class="div-float-left">
-          <p>&copy; 2016 <a href="https://github.com/m4ns0ur">Mansour Rahimi</a></p>
-        </div>
-        <div class="div-center made-badge">
-          <p><a href="https://github.com/m4ns0ur/m4ns0ur.github.io">Theme? Made with <span>&#10084;</span> by <span><strong>m4ns0ur</strong></span></a></em></p>
+        <section id="contact">
+          <div class="row featurette">
+            <div class="col-md-7 col-md-push-5">
+              <h2 class="featurette-heading">Social</h2>
+              <p class="lead">
+                <div class="social">
+                  <ul id="services">
+                    <li>
+                      <a href="https://github.com/m4ns0ur">
+                        <div class="entypo-github"></div>
+                        <span>GitHub</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://nl.linkedin.com/in/mansour-rahimi-332a2b48">
+                        <div class="entypo-linkedin"></div>
+                        <span>LinkedIn</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/rahimimnr">
+                        <div class="entypo-twitter"></div>
+                        <span>Twitter</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://plus.google.com/101191814013423117705">
+                        <div class="entypo-gplus"></div>
+                        <span>Google+</span>
+                      </a>
+                    </li>
+                    <!-- <li>
+                      <div class="entypo-facebook"></div>
+                      <span>Facebook</span>
+                    </li> -->
+                  </ul>
+                </div>
+              </p>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+              <img id="octobiwan" class="featurette-image img-responsive center-block img-circle" src="assets/img/octobiwan.jpg" alt="octobiwan">
+            </div>
+          </div>
+        </section>
+
+        <div class="copyright">
+          <div class="div-float-left">
+            <p>&copy; 2016 <a href="#">Mansour Rahimi</a></p>
+          </div>
+          <div class="div-center made-badge">
+            <p><a href="https://github.com/m4ns0ur/m4ns0ur.github.io">Theme? Made with <span class="coffee">&#9749;</span> by <span class="masnour"><strong>m4ns0ur</strong></span></a></p>
+          </div>
         </div>
       </footer>
-
     </div>
 
     <script src="assets/js/ie-emulation-modes-warning.js"></script>

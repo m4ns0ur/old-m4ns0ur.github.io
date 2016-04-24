@@ -118,15 +118,80 @@
   margin-top: 60px;
 }
 
+.footer {
+  background: #f7f7f7;
+  border-top: 1px solid #e5e5e5;
+}
+
 .footer a:hover {
   text-decoration: none;
 }
 
 .div-float-left {
   display: inline-block;
-  width: 250px;
 }
 
 .div-center {
   display: inline-block;
+  padding-left: 50px;
+}
+
+.coffee {
+  font-size: x-large;
+  color: #654321;
+}
+
+.mansour {
+  font-size: large;
+}
+
+.sections section {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sections section a:hover,
+.sections section a:focus {
+  text-decoration: none;
+}
+
+#home {
+  height: 700px;
+}
+
+#about {
+  padding-bottom: 60px;
+  background: #f7f7f7;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#projects {
+  padding-bottom: 60px;
+  margin-left: 60px;
+}
+
+#heisencat {
+  width: 450px;
+}
+
+#contact {
+  padding-bottom: 60px;
+}
+
+#octobiwan {
+  width: 350px;
+}
+
+.copyright {
+  background: rgba(0, 0, 0, 0.1);
+  padding-top: 8px;
+  text-align: center;
+}
+
+.copyright a:focus {
+  text-decoration: none;
 }

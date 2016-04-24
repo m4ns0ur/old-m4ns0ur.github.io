@@ -10,6 +10,9 @@ Feel free to fork, and use the theme.
 - [Typed.js](https://github.com/mattboldt/typed.js/blob/master/LICENSE.txt)
 - [Animate.css](https://github.com/daneden/animate.css/blob/master/LICENSE)
 - [Github Corners](https://github.com/tholman/github-corners/blob/master/license.md)
+- [Heisencat](https://octodex.github.com/heisencat)
+- [Octobiwan](https://octodex.github.com/octobiwan)
+- [Fancy Flat Social Button Animation](http://codepen.io/cguillou/details/LmCuJ)
 
 ## License
 
