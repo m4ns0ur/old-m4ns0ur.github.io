@@ -1,10 +1,3 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-
-/* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
-
 section #services {
   text-align: left;
   transform: translatez(0);
@@ -73,26 +66,38 @@ section #services li a {
   color: inherit;
 }
 
-.entypo-github {
+.social-github {
   background-color: #fff;
+  background: url(../img/GitHub-Mark-64px.png) no-repeat;
+  background-size: 64px 64px;
+  background-position: center;
 }
 
-.entypo-linkedin {
+.social-linkedin {
   color: #fff;
   background-color: #4875B4;
+  background: url(../img/In-2C-66px-R.png) no-repeat;
+  background-size: 64px 64px;
+  background-position: center;
 }
 
-.entypo-twitter {
+.social-twitter {
   color: #2daae1;
   background-color: #fff;
+  background: url(../img/Twitter_Logo_Blue.png) no-repeat;
+  background-size: 64px 64px;
+  background-position: center;
 }
 
-.entypo-gplus {
+.social-gplus {
   color: #fff;
   background-color: #d34836;
+  background: url(../img/gplus_icon_flush_76dp.png) no-repeat;
+  background-size: 64px 64px;
+  background-position: center;
 }
 
-.entypo-facebook {
+.social-facebook {
   color: #fff;
   background-color: #0077B5;
 }
