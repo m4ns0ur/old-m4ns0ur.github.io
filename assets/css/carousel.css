@@ -46,6 +46,9 @@ body {
 .carousel .item {
   height: 630px;
   /*background-color: #4696e5;*/
+  background-image: url("../img/04.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* sections CONTENT

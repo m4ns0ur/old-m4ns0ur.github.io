@@ -217,7 +217,7 @@ html { height: 100%;}
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: #1a1a1a;
+  background-color: #bababa;
 }
 .hamburger.is-closed .hamb-top {
   top: 5px;
